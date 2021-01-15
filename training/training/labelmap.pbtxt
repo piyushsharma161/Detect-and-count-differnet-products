@@ -1,0 +1,159 @@
+item {
+  id: 1
+  name: 'parachute hair cream'
+}
+
+item {
+  id: 2
+  name: 'dabur anmol gold coconut oil'
+}
+
+item {
+  id: 3
+  name: 'catch kashmiri mirch'
+}
+
+item {
+  id: 4
+  name: 'patanjali chyawanprash'
+}
+
+item {
+  id: 5
+  name: 'loreal smooth intense serum'
+}
+
+item {
+  id: 6
+  name: 'emami mustard oil'
+}
+
+item {
+  id: 7
+  name: 'dabur chyawanprash'
+}
+
+item {
+  id: 8
+  name: 'good life hing'
+}
+
+item {
+  id: 9
+  name: 'catch hing'
+}
+
+item {
+  id: 10
+  name: 'ponds moisturizing lotion'
+}
+
+item {
+  id: 11
+  name: 'catch garam masala'
+}
+
+item {
+  id: 12
+  name: 'dabur chyawanprash 2x immunity'
+}
+
+item {
+  id: 13
+  name: 'dabur honey'
+}
+
+item {
+  id: 14
+  name: 'everest biryani masala'
+}
+
+item {
+  id: 15
+  name: 'patanjali aloe vera gel'
+}
+
+item {
+  id: 16
+  name: 'grofers kishmish'
+}
+
+item {
+  id: 17
+  name: 'grofers room freshener'
+}
+
+item {
+  id: 18
+  name: 'kiwi express shine sponge'
+}
+
+item {
+  id: 19
+  name: 'garnier cleansing water'
+}
+
+item {
+  id: 20
+  name: 'bc gulab jamun'
+}
+
+item {
+  id: 21
+  name: 'bourn vita'
+}
+
+item {
+  id: 22
+  name: 'catch chicken masala'
+}
+
+item {
+  id: 23
+  name: 'everest pav bhaji masala'
+}
+
+item {
+  id: 24
+  name: 'cinthol talcum powder'
+}
+
+item {
+  id: 25
+  name: 'savemore glass cleaner'
+}
+
+item {
+  id: 26
+  name: 'park avenue voyage perfume'
+}
+
+item {
+  id: 27
+  name: 'orange coconut oil'
+}
+
+item {
+  id: 28
+  name: 'everest hing'
+}
+
+item {
+  id: 29
+  name: 'amul spray milk powder'
+}
+
+item {
+  id: 30
+  name: 'yardley body spray'
+}
+
+item {
+  id: 31
+  name: 'goodnight'
+}
+
+item {
+  id: 32
+  name: 'fair and handsome'
+}
