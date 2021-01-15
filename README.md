@@ -1,13 +1,16 @@
-# Detect-and-count-differnet-products
+# Detect-and-count-differnet-products using faster rcnn
 
 This end to end project is to detect the products and perform count on different products scanned.
 
 Problem statement: In grocery stores, sometime customers pick products and keep them on different place(not on designated space on the shelf) due to some reasons like he or she changed the mind or price was high. Store user need to find these products and place them on right place on the self, user may need to scan all the products one by one to find the correct location on the self.
 
 Solution: instead of scanning bar code of each products one by one, i have designed an object detection model which will display the products with correct level and also give count of each products.
-Model has been trained on 32 different products and approx. 500 images have been used for training.
+Model has been trained using Faster RCNN on 32 different products and approx. 500 images have been used for training.
 Deployment is done using flask
 For retraining the model, need to add the new images in the input file and perform steps like python xml_to_csv.py, generate tfrecords for both train and test data, however no need to train from starting, we can use model weight using the saved checkpoint and model will start from the next step saved in checkpoint.
+
+Download train and test data from google drive https://drive.google.com/drive/folders/1S_K46byzFWi8KfZoxHoFnFi1cKjNUUZc. images are already levelled using labelling tool labelImg, if need to add new data, run this tool for them.
+
 Steps for training:
 #Create environment 
 conda create -n product_shelf python=3.6   
