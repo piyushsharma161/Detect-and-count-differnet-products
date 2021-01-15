@@ -1,0 +1,8 @@
+keep saved model and /labelmap.pbtxt in my_model folder.
+need to update path for above 2 files in detector_utils.py
+
+TRAINED_MODEL_DIR = 'my_model'
+# Path to frozen detection graph. This is the actual model that is used for the object detection.
+PATH_TO_CKPT = TRAINED_MODEL_DIR + '/frozen_inference_graph.pb'
+# List of the strings that is used to add correct label for each box.
+PATH_TO_LABELS = TRAINED_MODEL_DIR + '/labelmap.pbtxt'
