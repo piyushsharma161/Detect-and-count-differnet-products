@@ -1,5 +1,7 @@
 # Detect-and-count-differnet-products using faster rcnn
 
+![download](https://user-images.githubusercontent.com/31979631/104735918-3ad22d00-5768-11eb-9c7d-bb602b553a4b.png)
+
 This end to end project is to detect the products and perform count on different products scanned.
 
 Problem statement: In grocery stores, sometime customers pick products and keep them on different place(not on designated space on the shelf) due to some reasons like he or she changed the mind or price was high. Store user need to find these products and place them on right place on the self, user may need to scan all the products one by one to find the correct location on the self.
