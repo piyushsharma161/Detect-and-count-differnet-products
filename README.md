@@ -11,7 +11,7 @@ For retraining the model, need to add the new images in the input file and perfo
 Steps for training:
 #Create environment 
 conda create -n product_shelf python=3.6   
-# install all requirements 
+# Install all requirements 
 pip install -r requirements.txt 
 
 #Go inside training folder and run below commands
@@ -37,10 +37,10 @@ come back :
 #Train model with below command
 python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
  if fail update protobuf  pip install --upgrade protobuf
-# to use model first need to stop training and generate inference graph using below py file
+# To use model first need to stop training and generate inference graph using below py file
 python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_coco.config --trained_checkpoint_prefix training/model.ckpt-646 --output_directory my_model
 #here 646 is last saved checkpoint
-# to restart the training run below py file to take backup and restart the training, it will start after the last saved checkpoint 
+# To restart the training run below py file to take backup and restart the training, it will start after the last saved checkpoint 
 python copy_dir.py my_model my_model_backup
 
 
