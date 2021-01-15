@@ -14,7 +14,7 @@ Download train and test data from google drive https://drive.google.com/drive/fo
 Steps for training:
 #Create environment 
 conda create -n product_shelf python=3.6   
-## Install all requirements 
+### Install all requirements 
 pip install -r requirements.txt 
 
 #Go inside training folder and run below commands
