@@ -14,7 +14,7 @@ Download train and test data from google drive https://drive.google.com/drive/fo
 Steps for training:
 #Create environment 
 conda create -n product_shelf python=3.6   
-# Install all requirements 
+## Install all requirements 
 pip install -r requirements.txt 
 
 #Go inside training folder and run below commands
@@ -40,10 +40,10 @@ come back :
 #Train model with below command
 python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
  if fail update protobuf  pip install --upgrade protobuf
-# To use model first need to stop training and generate inference graph using below py file
+## To use model first need to stop training and generate inference graph using below py file
 python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_coco.config --trained_checkpoint_prefix training/model.ckpt-646 --output_directory my_model
 #here 646 is last saved checkpoint
-# To restart the training run below py file to take backup and restart the training, it will start after the last saved checkpoint 
+## To restart the training run below py file to take backup and restart the training, it will start after the last saved checkpoint 
 python copy_dir.py my_model my_model_backup
 
 
