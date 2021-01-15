@@ -45,6 +45,11 @@ python export_inference_graph.py --input_type image_tensor --pipeline_config_pat
 #here 646 is last saved checkpoint
 ## To restart the training run below py file to take backup and restart the training, it will start after the last saved checkpoint 
 python copy_dir.py my_model my_model_backup
+## Deploy the model
+I have deployed the model on local device only using laptop webcam.
+Run product_detection.py file 
+It will display the products with label and also display how many of each products in the frame. 
+
 
 
 
